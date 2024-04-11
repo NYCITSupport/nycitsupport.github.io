@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Coming Soon</title>
+
+</head>
+<body>
+
+<div class="bg">
+    <div class="overlay">
+        <main class="container">
+            <div class="grid">
+                <section id="form-section"></section>
+                    <hgroup>
+                        <h2>Coming Soon</h2>
+                        <h3>Stay tuned for something amazing!</h3>
+                    </hgroup>
+                    <p>Enter your email below to get notified when we launch.</p>
+                    <form style="justify-content: center; align-items: center;">
+                        <input type="email" id="email" name="email" placeholder="Your Email" aria-label="Email Address" required>
+                        <button type="submit" onclick="event.preventDefault(); fadeOutForm()">Notify Me</button>
+                    </form>
+                
+            </div>
+          
+        </main>
+        <footer class="container">
+            <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Use</a></small>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
